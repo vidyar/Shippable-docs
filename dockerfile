@@ -11,7 +11,7 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -yq make py
 RUN pip install Sphinx==1.2.1
 RUN pip install sphinxcontrib-httpdomain==1.2.0
 ADD Docs
-RUN make -C Docs clean Docs
+RUN make -C Shippable-Docs clean Shippable-Docs
 
 WORKDIR /Docs/_build/html
 CMD ["python", "-m", "SimpleHTTPServer"]
