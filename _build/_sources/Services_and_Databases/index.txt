@@ -10,7 +10,7 @@ Services and Databases:
 This section helps you to add the datastores to your shippable.yml file. Some services are started on boot but some are not. You need to specify it in the shippable.yml file to start service for your project.
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    
    Databases
    Services	

@@ -38,7 +38,7 @@ p a.btn {
   padding: 10px 15px 10px;
 }
 .navbar .brand {
-  margin-left: 0px;
+  margin-left: 0px;s
   float: left;
   display: block;
 }
@@ -51,7 +51,7 @@ p a.btn {
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#33333), to(#444444));
   background-image: -webkit-linear-gradient(top, #333333, #444444);
   background-image: -o-linear-gradient(top, #333333, #444444);
-  background-image: linear-gradient(to bottom, #333333, #444444);
+  background-image: linear-gradient(to bottom, #3B4848, #3B4848);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2f2f2', endColorstr='#ffe5e5e5', GradientType=0);
   border: 1px solid #c7c7c7;
@@ -150,24 +150,25 @@ body {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  /* Negative indent footer by it's height */
+    /* Negative indent footer by it's height */
 
   margin: 0 auto -280px;
 }
 /* Set the fixed height of the footer here */
 #push-the-footer,
 #footer {
-  height: 280px;
+  height: 100px;
+  background-color:#3B4848 ;
 }
 .main-row {
   padding-top: 50px;
 }
 #footer .footer {
-  margin-top: 160px;
+  margin-top: 100px;
 }
 #footer .footer .ligaturesymbols {
   font-size: 30px;
-  color: black;
+  color: white;
 }
 #footer .footer .ligaturesymbols a {
   color: black;
@@ -184,7 +185,7 @@ body {
   margin-bottom: 0;
   
   background-repeat: repeat-x;
-  height: 280px;
+  height: 100px;
 }
 .main-row {
   margin-top: 40px;
@@ -205,6 +206,7 @@ body {
 .social {
   margin-left: 0px;
   margin-top: 15px;
+  
 }
 .social .twitter,
 .social .github,
@@ -215,13 +217,13 @@ body {
 .social .flickr,
 .social .youtube,
 .social .reddit {
-  background: url("../img/social/docker_social_logos.png") no-repeat transparent;
+  background: url("../img/social/shippable_social_logos.png") no-repeat transparent;
   display: inline-block;
   height: 32px;
   overflow: hidden;
   text-indent: 9999px;
   width: 32px;
-  margin-right: 5px;
+  margin-right: 15px;
 }
 .social :hover {
   -webkit-transform: rotate(-10deg);
@@ -233,27 +235,15 @@ body {
 .social .twitter {
   background-position: -160px 0px;
 }
-.social .reddit {
-  background-position: -256px 0px;
-}
+
 .social .github {
   background-position: -64px 0px;
 }
-.social .googleplus {
-  background-position: -96px 0px;
-}
+
 .social .facebook {
   background-position: 0px 0px;
 }
-.social .slideshare {
-  background-position: -128px 0px;
-}
-.social .youtube {
-  background-position: -192px 0px;
-}
-.social .flickr {
-  background-position: -32px 0px;
-}
+
 .social .linkedin {
   background-position: -224px 0px;
 }
@@ -292,11 +282,12 @@ div.alert.alert-block {
   width: 100%;
 }
 .page-title h4 {
-  font-size: 20px;
+  font-size: 16px;
 }
 .bs-docs-sidebar {
   padding-left: 5px;
   max-width: 100%;
+
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   margin-top: 18px;

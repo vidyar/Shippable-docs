@@ -5,7 +5,7 @@
 
 .. _Nodejs_buildsample :
 
-Node.js-buildsample:
+Node.js-buildsample
 ======================
 
 A sample repository Node.js-buildsample has been created using the coverage tool istanbul and the testing tool mocha.

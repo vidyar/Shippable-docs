@@ -4,7 +4,7 @@
 
 .. _csharp_buildsample:
 
-Csharp-buildsample:
+Csharp-buildsample
 =====================
 
 A sample repository csharp-buildsample has been created using Nunitand opencover. Keep the test and code coverage outputs in our special folders called Shippable/testresults and Shippable/codecoverage to get the reports parsed.

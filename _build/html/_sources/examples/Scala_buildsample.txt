@@ -4,7 +4,7 @@
 
 .. _Scala_buildsample:
 
-Scala-buildsample:
+Scala-buildsample
 ===================
   
 A sample repository Scala-buildsample has been created using the testing framework ScalaTest. 

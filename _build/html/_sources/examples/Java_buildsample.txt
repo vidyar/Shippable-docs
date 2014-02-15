@@ -5,7 +5,7 @@
 
 .. _Java_buidsample :
 
-Java-buildsample:
+Java-buildsample
 ===================
 
 A sample repository Java-buildsample has been created using cobertura and Junit. Keep the test and code coverage outputs in our special folders called Shippable/testresults and Shippable/codecoverage to get the reports parsed and the test results must be in Junit format.

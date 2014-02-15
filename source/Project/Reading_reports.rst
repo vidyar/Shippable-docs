@@ -4,7 +4,7 @@
 
 .. _Reading reports :
 
-Reading reports :
+Reading reports 
 ===================
 
 
@@ -13,6 +13,7 @@ You can see the console output appears on the window as the build proceeds.This 
 
 
 .. image:: images/console.png
+
 
 
 Keep the test and code coverage outputs in our special folders called Shippable/testresults and Shippable/codecoverage to get the reports parsed. Then only you are able to check the Test and coverage reports as soon as the build finishes execution.
@@ -24,13 +25,16 @@ Windows worker will only archive the contents of the Shippable folder. So if you
 * Test - Testing is an activity to check whether the actual result is matching the expected result.Here you can check number of tests passed or failed in the build by clicking on the Test tab.
 
 
+
 .. image:: images/Test.png
+
 
 
 * Code coverage - To measure what percentage of code has been exercised by a test suite, one or more coverage criteria are used. Here you can check the Sequence coverage and branch coverage for each & every methods in a class ny clicking on the Coverage tab.
 
 
 .. image:: images/Coverage.png
+
 
 
 
@@ -45,6 +49,7 @@ You can also check the Build trends like Build duration, Job health, repository 
 
 
 
+
 * Build duration : Graph shows the amount of time taken to run the build. X-axis represents the number of builds and Y-axis represents the time taken run the build.
 
 
@@ -52,6 +57,7 @@ You can also check the Build trends like Build duration, Job health, repository 
 
 
 .. image:: images/Build_trends1.png
+
 
 
 

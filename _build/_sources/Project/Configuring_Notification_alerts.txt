@@ -29,7 +29,7 @@ You will get email notifications, even if you have turned off the notifications.
 
 Build admin will also get email notification along with the the owner.
 
-Email notification:
+Email notification
 ----------------------
 
 You can configure the email notification by specifying the recipients id in the yml file.
@@ -65,7 +65,7 @@ If you do not want to get notified, then you can configure the email notificatio
 	   email: false
 
 
-Campfire notification:
+Campfire notification
 ---------------------------
 
 You can also configure the campfire notifications so that we will send you the alerts to the campfire chat rooms.

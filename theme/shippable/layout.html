@@ -71,7 +71,11 @@
                 <ul class="nav">
                     <li id="nav-introduction"><a href="https://www.shippable.com/" title="Shippable Homepage">Home</a></li>
                     <li id="nav-about"><a href="https://www.shippable.com/Features" title="Features">Features</a></li>
-                    <li id="nav-community"><a href="https://www.shippable.com/Pricing" title="Company">Company</a></li>
+                    <li id="nav-community"><a href="https://www.shippable.com/Pricing" title="Pricing">Pricing</a></li>
+                    <li id="nav-about"><a href="https://www.shippable.com/Company" title="company">Company</a></li>
+                    <li id="nav-blog"><a href="http://blog.shippable.com" title="Shippable Blog">Blog</a></li>
+                    <li id="nav-documentation" class="active"><a href="http://docs.shippable.com/en/latest/">Docs</a></li>
+                    <li id="nav-about" class="link-button"><a href="https://www.shippable.com/app/auth/githublogin/00000000-0000-0000-0000-000000000001">SIGN IN</a></li>
                                        
                 </ul>
             </div>
@@ -93,10 +97,10 @@
             </div>
             
             {{ toctree(collapse=False, maxdepth=3) }}
-	    <form>
+	   <!-- <form>
 	      <input type="text" id="st-search-input" class="st-search-input span3" placeholder="search in documentation" style="width:210px;" />
           <div id="st-results-container"></div>
-	    </form>
+	    </form> -->
         </div>
 
         <!-- body block -->
@@ -108,7 +112,7 @@
                 {% block body %}{% endblock %}
             </section>
 
-            <div class="pull-right"><a href="https://github.com/vidyar/Shippable-docs/blob/master/source/{{ pagename }}.rst" title="edit this article">Edit this article on GitHub</a></div>
+            <div class="pull-right"><a href="https://github.com/vidyar/Shippable-docs/blob/{{ github_tag }}/source/{{ pagename }}.rst" title="edit this article">Edit this article on GitHub</a></div>
         </div>
     </div>
 </div>
@@ -131,10 +135,10 @@
 
                         <div class="social links">
                             <a title="Shippable on Twitter" class="twitter" href="http://twitter.com/beshippable">Twitter</a>
-                            <a title="Shippable on GitHub" class="github" href="https://github.com/Shippable/docker/">GitHub</a>
+                            <a title="Shippable on GitHub" class="github" href="https://github.com/Shippable/">GitHub</a>
                             
-                            <a title="Shippable on Facebook" class="facebook" href="https://www.facebook.com/Shippable">Facebook</a>
-                            <a title="Docker on LinkedIn" class="linkedin" href="http://www.linkedin.com/company/shippable">LinkedIn</a>
+                            <a title="Shippable on Facebook" class="facebook" href="https://www.facebook.com/beshippable">Facebook</a>
+                            <a title="Shippable LinkedIn" class="linkedin" href="http://www.linkedin.com/company/shippable">LinkedIn</a>
                         </div>
 
                         <div class="tbox version-flyer ">

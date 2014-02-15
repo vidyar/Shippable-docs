@@ -4,7 +4,7 @@
 
 .. _Ruby_buildsample :
 
-Ruby-buildsample:
+Ruby-buildsample
 ==================
 
 
